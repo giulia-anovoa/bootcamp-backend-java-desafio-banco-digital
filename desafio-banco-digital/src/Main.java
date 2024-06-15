@@ -24,7 +24,7 @@ public class Main {
 			System.out.println(cliente.getNome());
 		}
 
-		System.out.println("Contas do cliente Venilton:");
+		System.out.println("Contas do clientes:");
 		for (Conta conta : banco.getContasDoCliente(giulia)) {
 			System.out.println("Conta número: " + conta.getNumero() + ", Saldo: " + conta.getSaldo());
 		}
